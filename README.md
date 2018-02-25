@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  My CV is based on the amazing [**Awesome CV**](https://github.com/posquit0/Awesome-CV) - definitely check it out if you're looking for a slick CV template.
+  My CV is based on the amazing <a href="https://github.com/posquit0/Awesome-CV"> <b>Awesome CV</b> <a/> - definitely check it out if you're looking for a slick CV template.
 </p>
 
 <br />
