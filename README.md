@@ -39,7 +39,7 @@ $ xelatex resume/resume.tex
 
 This should result in the creation of ``resume.pdf``
 
-If you want it a PNG you can use imagemagick to conver it:
+If you want it a PNG you can use imagemagick to convert it:
 
 ```bash
 $ convert -density 300 resume.pdf -quality 90 resume.png
