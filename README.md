@@ -20,7 +20,7 @@ Get the [PDF](https://raw.githubusercontent.com/michaelmcallister/CV/master/resu
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/michaelmcallister/CV/master/resume/resume-0.png)](https://raw.githubusercontent.com/michaelmcallister/CV/master/resume/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/michaelmcallister/CV/master/resume/resume-1.png)](https://raw.githubusercontent.com/michaelmcallister/CV/master/resume/resume.pdf) |
+| [![Résumé](https://github.com/michaelmcallister/CV/releases/latest/download/resume-0.png)](https://github.com/michaelmcallister/CV/releases/latest/download/resume.pdf)  | [![Résumé](https://github.com/michaelmcallister/CV/releases/latest/download/resume-1.png)](https://github.com/michaelmcallister/CV/releases/latest/download/resume.pdf) |
 
 ## Building
 
