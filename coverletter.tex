@@ -1,0 +1,137 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./examples/profile}
+\name{Michael}{McAllister}
+\position{Site Reliability Engineer{\enskip\cdotp\enskip}Linux Enthusiast}
+\address{Sydney, Australia}
+
+\mobile{(+61) 410206745}
+\email{me@michaelmcallister.org}
+%\dateofbirth{January 1st, 1970}
+\homepage{michaelmcallister.org}
+\github{michaelmcallister}
+\linkedin{mpmcallister}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \hackerrank{hackerrank-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Ruby Mulvaney}
+  {Strawinskylaan 3095\\1077 ZX Amsterdam\\The Netherlands}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Site Reliability Engineer}
+% How the letter is opened
+\letteropening{Dear Ms. Mulvaney}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Michael McAllister~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+I am writing to express my interest in the Site Reliability Engineer position at Optiver’s Amsterdam office, as advertised. With a comprehensive background in Site Reliability Engineering (SRE), DevOps practices, and leadership across financial institutions such as the Commonwealth Bank of Australia and tech giants like Google and Amazon Web Services, I am excited about the opportunity to bring my expertise to a tech-driven trading firm like Optiver.
+
+In my most recent role as Principal Site Reliability Engineer at the Commonwealth Bank of Australia, I spearheaded the architecture and implementation of a new observability stack utilizing Grafana, Mimir, and Prometheus. This initiative not only aligned with stringent financial regulations, but also drastically reduced Mean Time to Recovery (MTTR) for the services that depend on it.
+
+My tenure in the industry has honed my expertise in incident management, architectural design and software engineering. The hands-on experience with network and systems operations across my career has given me the technical depth that aligns with Optiver's emphasis on performance and stability in high-pressure trading environments.
+
+I bring not only technical acumen but also a successful track record in team leadership, hiring, and strategy presentations to broad audiences, including C-level executives. As someone who thrives in dynamic environments and relishes continual learning and change, I am particularly drawn to Optiver's importance it places on effeciency and speed.
+
+My proficiency in scripting, languages like Python and Go, and my familiarity with Linux and networking will allow me to contribute meaningfully to Optiver's tech stack. Additionally, my educational endeavors with a Masters in Computer Science from Monash University and my history of DevRel contributions underscore my readiness to take on this challenging role.
+
+The opportunity to work at Optiver excites me because it represents a blend of high stakes technology and market influence, an area where I have demonstrated consistent success and innovation. I am eager to bring my strategic vision and a proven ability to maintain the perfect balance between innovation, reliability, and performance to your esteemed firm.
+
+Thank you for considering my application. I am looking forward to discussing how my background, skills, and enthusiasm will be an excellent match for the Site Reliability Engineer role at Optiver.
+\end{cvletter}
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+\end{document}
+
