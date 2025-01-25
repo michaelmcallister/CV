@@ -16,7 +16,7 @@
 
 #### Résumé
 
-Get the [PDF](https://raw.githubusercontent.com/michaelmcallister/CV/master/resume/resume.pdf)
+Get the [PDF](https://github.com/michaelmcallister/CV/releases/latest/download/resume.pdf)
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
